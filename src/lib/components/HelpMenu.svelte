@@ -184,7 +184,7 @@
         </button>
       </div>
       <p class="about-name">Chikoo Hindi Typing</p>
-      <p>Version 0.1.0</p>
+      <p>Version 0.1.1</p>
       <p>Developed by Abhinay Jangde.</p>
       <button class="dialog-action" type="button" onclick={() => (aboutOpen = false)}>Close</button>
     </dialog>
