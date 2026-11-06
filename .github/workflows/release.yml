@@ -31,7 +31,6 @@ jobs:
           releaseDraft: false
           prerelease: false
           projectPath: .
-          tauriScript: npm run tauri --
           updaterJsonPreferNsis: true
           uploadUpdaterJson: true
           args: --bundles nsis
