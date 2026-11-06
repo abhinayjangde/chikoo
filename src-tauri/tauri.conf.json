@@ -24,6 +24,7 @@
   },
   "bundle": {
     "active": true,
+    "createUpdaterArtifacts": true,
     "targets": "all",
     "icon": [
       "icons/icon.ico",
@@ -32,5 +33,16 @@
       "icons/128x128@2x.png",
       "icons/icon.icns"
     ]
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEMyMUU3NzU4ODgzNDY0OUIKUldTYlpEU0lXSGNld2xtSlNPQm5MazBITEVmNG1vYktmNkhEWi80NEgzZDlVQ1VjL2pLSW9PdWIK",
+      "endpoints": [
+        "https://github.com/abhinayjangde/hindityping/releases/latest/download/latest.json"
+      ],
+      "windows": {
+        "installMode": "passive"
+      }
+    }
   }
 }
